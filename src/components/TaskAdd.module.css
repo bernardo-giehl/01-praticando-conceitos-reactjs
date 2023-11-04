@@ -1,0 +1,52 @@
+.taskAdd {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.375rem;
+    margin-top: -1.75rem;
+}
+
+.taskAdd input {
+    width: 100%;
+    color: var(--gray-300);
+    background: var(--gray-500);
+    border: solid 1.5px;
+    border-color: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-right: 0.5rem;
+}
+
+.taskAdd input:focus,
+.taskAdd input:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.taskAdd button[type=submit] {
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    border: 0;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.taskAdd button[type=submit]:hover {
+    color: var(--gray-200);
+    background: var(--blue);
+}
+
+.taskAdd button[type=submit] svg {
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,63 @@
+
+.task {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 0.75rem;
+    background-color: var(--gray-500);
+    border: solid 1.5px;
+    border-color: var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem;
+    
+}
+
+.task p {
+    width: 95%;
+    display: block;
+    padding: 0 1rem;
+}
+
+.task button {
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    line-height: 0;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.task .uncheckText {
+    color: var(--gray-100);
+}
+
+.task .checkText {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.task .uncheck {
+    color: var(--blue-dark);
+}
+
+.task .uncheck:hover {
+    color: var(--blue);
+}
+
+.task .check {
+    color: var(--purple-dark);
+}
+
+.task .check:hover {
+    color: var(--purple);
+}
+
+.task .trash {
+    color: var(--gray-300);
+}
+
+.task .trash:hover {
+    color: var(--danger);
+}
